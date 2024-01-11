@@ -6,8 +6,8 @@
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="js/quiz.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <script src="js/yalta_quiz.js"></script>
 </head>
 <body>
     <header class="container-fluid shadow" style="padding-top: 2%; padding-bottom: 2%;">
@@ -30,7 +30,7 @@
        <main>
         <div class="row">
             <div class="col-9" style="padding-left: 20%; padding-top: 5%;">
-                <h1 class="text-center text-info" style="padding-bottom: 20px;">Симферополь</h1>
+                <h1 class="text-center text-info" style="padding-bottom: 20px;">Ялта</h1>
                 <iframe class="aling-center" width="720" height="405" src="https://rutube.ru/play/embed/2fff0bf1b40675e3d99d84ecbca09bb7" frameBorder="0" allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 <h2 class="text-center text-info" style="padding-top: 3%; padding-right: 5%;">Текст</h2>
                 <div class="text-justify text-muted" style="padding-right: 10%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium repellendus fuga ducimus in iste. Quo neque dolor similique corrupti unde expedita adipisci at iusto, id voluptatum laudantium vero rerum amet iste, quod illo, quos odit recusandae quibusdam ex ad voluptatibus? Tempora doloribus a, fuga accusantium error aperiam autem alias, id maxime earum magni, culpa expedita ullam praesentium. Libero repellendus doloribus, repudiandae atque dicta sunt ad impedit in consectetur accusamus accusantium facere veritatis illum sequi soluta? Ducimus non id harum eius sunt eum iusto? Maiores porro pariatur corporis dolores exercitationem dignissimos perferendis odit veritatis, nulla quis ab cumque laudantium vero, autem iure culpa. Reprehenderit, maiores asperiores soluta sequi odit laudantium totam eos quibusdam obcaecati nulla adipisci quod, expedita aperiam dolorum iusto veritatis. Illo facilis, harum a dolor hic assumenda ut non blanditiis repellat quia repudiandae? Laborum, quae nesciunt quia repellendus provident impedit corrupti nobis esse molestias! Nostrum quam aperiam autem velit voluptatum ipsum optio ratione. Fugit, adipisci excepturi corrupti quibusdam, ut sunt nihil, impedit corporis eligendi iusto tempora possimus accusamus. Sequi dolore quis eligendi odio cum voluptatem soluta labore enim qui. Atque ipsa vero ex eligendi. 
@@ -40,83 +40,83 @@
                 <!-- <div class="questions" onsubmit="disableAnswers(event)" style="padding-bottom: 3%;"> -->
                     <form id="quiz-form" onsubmit="disableAnswers(event);">
                         <h2 class="text-center text-info" style="padding-top: 3%;">Вопросы</h2>
-                        <h4 class="text-info" style="padding-top: 1%;">Какой музей является одной из главных достопримечательностей Симферополя?</h4>
+                        <h4 class="text-info" style="padding-top: 1%;">Какие достопримечательности находятся в окрестностях города Ялта?</h4>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="option1">
-                            <label class="custom-control-label" for="option1">Государственный историко-археологический музей-заповедник "Херсонес Таврический"</label>
+                            <label class="custom-control-label" for="option1">Крепость Чембало</label>
                         </div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="option2">
-                            <label class="custom-control-label" for="option2">Крымский государственный музей-заповедник</label>
+                            <label class="custom-control-label" for="option2">Голубая бухта</label>
                         </div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="option3">
-                            <label class="custom-control-label" for="option3">Музей современного искусства "Караимская калитка"</label>
+                            <label class="custom-control-label" for="option3">Гранатовый монастырь</label>
                         </div><br>
-                        <h4 class="text-info" style="padding-top: 1%;">Какое расстояние между Симферополем и Севастополем?</h4>
+                        <h4 class="text-info" style="padding-top: 1%;">Какое расположение имеет город Ялта на полуострове Крым?</h4>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option4" name="distance" class="custom-control-input">
-                            <label class="custom-control-label" for="option4">100 км</label>
+                            <label class="custom-control-label" for="option4">На южном побережье Крыма</label>
                         </div>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option5" name="distance" class="custom-control-input">
-                            <label class="custom-control-label" for="option5">150 км</label>
+                            <label class="custom-control-label" for="option5">На северном побережье Крыма</label>
                         </div>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option6" name="distance" class="custom-control-input" id="customRadio3">
-                            <label class="custom-control-label" for="option6">200 км</label>
+                            <label class="custom-control-label" for="option6">В центре полуострова Крым</label>
                         </div><br>
-                        <h4 class="text-info" style="padding-top: 1%;">Какой горный хребет находится рядом с Симферополем?</h4>
+                        <h4 class="text-info" style="padding-top: 1%;">Какой климат преобладает в городе Ялта?</h4>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option7" name="mountains" class="custom-control-input">
-                            <label class="custom-control-label" for="option7">Кавказский хребет</label>
+                            <label class="custom-control-label" for="option7">Морской субтропический климат</label>
                         </div>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option8" name="mountains" class="custom-control-input">
-                            <label class="custom-control-label" for="option8">Крымские горы</label>
+                            <label class="custom-control-label" for="option8">Континентальный климат</label>
                         </div>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option9" name="mountains" class="custom-control-input">
-                            <label class="custom-control-label" for="option9">Уральский хребет</label>
+                            <label class="custom-control-label" for="option9">Тундровый климат</label>
                         </div><br>
-                        <h4 class="text-info" style="padding-top: 1%;">Какое здание является символом города Симферополя?</h4>
+                        <h4 class="text-info" style="padding-top: 1%;">Какие виды активного отдыха можно заниматься в Ялте?</h4>
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox" name="citySymb" class="custom-control-input" id="option10">
-                                <label class="custom-control-label" for="option10">Храм Святого Владимира</label>
+                                <label class="custom-control-label" for="option10">Серфинг</label>
                             </div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" name="citySymb" class="custom-control-input" id="option11">
-                            <label class="custom-control-label" for="option11">Кафедральный собор Святого Александра Невского</label>
+                            <label class="custom-control-label" for="option11">Горный туризм</label>
                         </div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" name="citySymb" class="custom-control-input" id="option12">
-                            <label class="custom-control-label" for="option12">Симферопольский вокзал</label>
+                            <label class="custom-control-label" for="option12">Парасейлинг</label>
                         </div><br>
-                        <h4 class="text-info" style="padding-top: 1%;">Какой клуб является основным футбольным клубом Симферополя?</h4>
+                        <h4 class="text-info" style="padding-top: 1%;">Какую достопримечательность можно посетить в городе Ялта?</h4>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option13" name="mainFootballClub" class="custom-control-input">
-                            <label class="custom-control-label" for="option13">ФК "Таврия"</label>
+                            <label class="custom-control-label" for="option13">Ливадийский дворец</label>
                         </div>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option14" name="mainFootballClub" class="custom-control-input">
-                            <label class="custom-control-label" for="option14">ФК "Симферополь"</label>
+                            <label class="custom-control-label" for="option14">Эрмитаж</label>
                         </div>
                         <div class="custom-control custom-radio">
                             <input type="radio" id="option15" name="mainFootballClub" class="custom-control-input">
-                            <label class="custom-control-label" for="option15">ФК "ТСК-Таврия"</label>
+                            <label class="custom-control-label" for="option15">Кремль</label>
                         </div><br>
-                        <h4 class="text-info" style="padding-top: 1%;">Какой из перечисленных памятников расположен в Симферополе?</h4>
+                        <h4 class="text-info" style="padding-top: 1%;">Какие пляжи можно найти в городе Ялта?</h4>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" name="memorialPlaces" class="custom-control-input" id="option16">
-                            <label class="custom-control-label" for="option16">Памятник Ленину</label>
+                            <label class="custom-control-label" for="option16">Ливадийский пляж</label>
                         </div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" name="memorialPlaces" class="custom-control-input" id="option17">
-                            <label class="custom-control-label" for="option17">Памятник Пушкину</label>
+                            <label class="custom-control-label" for="option17">Голубой Залив</label>
                         </div>
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" name="memorialPlaces" class="custom-control-input" id="option18">
-                            <label class="custom-control-label" for="option18">Памятник Шевченко</label>
+                            <label class="custom-control-label" for="option18">Яшма-пляж</label>
                         </div><br>
                         <button class="btn btn-info" type="submit" value="Submit" onclick="checkAnswers()">Submit</button>
                         <div style="padding-top: 3%;" id="testResult"></div>
@@ -128,10 +128,10 @@
                     <label class="custom-control-label text-info" for="customSwitch1"><h4>Вопросы для обсуждения</h4></label>
                 </div>
                 <div id="questions" style="display: none;">
-                    <h6 class="text-info" style="padding-top: 1,5%;">1. Какие факторы делают город Симферополь уникальным и особенным?</h6>
-                    <h6 class="text-info">2. Каким образом история Симферополя влияет на его современное развитие и атмосферу?</h6>
-                    <h6 class="text-info">3. Каковы наиболее значимые достопримечательности Симферополя и как они отражают его культурное наследие?</h6>
-                    <h6 class="text-info">4. Как влияет географическое положение Симферополя на его экономику и туристический потенциал?</h6>
+                    <h6 class="text-info" style="padding-top: 1,5%;">1. Какова роль и значение Ялты в истории и культуре России?</h6>
+                    <h6 class="text-info">2. Какие особенности климата и природы Ялты делают его привлекательным для туристов и жителей?</h6>
+                    <h6 class="text-info">3. Какие вызовы и проблемы социального и экономического развития стоят перед Ялтой в настоящее время?</h6>
+                    <h6 class="text-info">4. Каковы перспективы и потенциал Ялты в контексте развития туризма и инфраструктуры?</h6>
                 </div>
             </div>
             
@@ -141,10 +141,10 @@
             <div class="col-3 shadow" style="padding-top: 80px;">
                 <ul class="nav nav-pills nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active bg-info" href="index.html">Симферополь</a>
+                        <a class="nav-link text-info" href="index.html">Симферополь</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link text-info" href="yalta.html">Ялта</a>
+                        <a class="nav-link active bg-info" href="yalta.html">Ялта</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link text-info" href="#!">Керчь</a>
